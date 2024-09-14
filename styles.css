@@ -1,0 +1,121 @@
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  background-color: rgb(247, 237, 244);
+  color: rgb(0, 0, 0);
+  height: 100vh; /* Garante que o corpo tenha a altura total da tela */
+  margin: 0;
+  justify-content: center;
+}
+
+.title h1, .title p {
+    margin: 0; /* Remove qualquer margem extra */
+    padding: 0; /* Remove qualquer preenchimento extra */
+}  
+
+.title {
+    display: flex;
+    flex-direction: column; /* Adiciona esta linha para alinhar os itens na vertical */
+    font-weight: 100;
+    justify-content: center;
+    align-items: center; /* Centraliza os itens verticalmente */
+    color: #fff;
+    background-color: rgb(124, 130, 208);
+}
+
+.title h1 {
+    margin-top: 7px; /* Adiciona uma pequena margem entre o título e o parágrafo */
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Garante que o elemento ocupe toda a largura */
+    max-width: 300px; /* Ajuste conforme o tamanho das imagens */
+    margin: 0 auto
+}
+
+.logojs {
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logohtml {
+    width:86px
+}
+
+.logocss {
+    width: 86px;
+}
+
+#ps1 {
+  color: azure;
+}
+
+.js-html-css {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Defina a largura para menos que 100% */
+    text-align: center; /* Centraliza o texto dentro da div */
+}
+
+.js-html-css h2 {
+    margin-left: 40px;
+}
+
+#ps2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 50%; /* Defina a largura para menos que 100% */
+    text-align: center; /* Centraliza o texto dentro da div */
+}
+
+.container-sticker {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Garante que o elemento ocupe toda a largura */
+    max-width: 300px; /* Ajuste conforme o tamanho das imagens */
+    margin: 0 auto
+}
+
+.namorar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Defina a largura para menos que 100% */
+    text-align: center; /* Centraliza o texto dentro da div */
+}
+.namorar h1 {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+.namorar p{
+    margin-top: 0;
+   margin-bottom: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn a {
+text-decoration: none;
+color: #fff;
+background: rgb(124, 130, 208);
+padding: 10px 25px;
+border-radius: 8px;
+box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
+}
+
+
+

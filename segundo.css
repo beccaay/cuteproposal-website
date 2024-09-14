@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(247, 237, 244);
+  color: rgb(0, 0, 0);
+  height: 100vh; /* Garante que o corpo tenha a altura total da tela */
+  margin: 0;
+  justify-content: center;
+}
+
+.title2 {
+  display: flex;
+  flex-direction: column; /* Adiciona esta linha para alinhar os itens na vertical */
+  font-weight: 100;
+  justify-content: center;
+  align-items: center; /* Centraliza os itens verticalmente */
+  color: rgb(0, 0, 0);
+}
+
+.momo-meme {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Garante que o elemento ocupe toda a largura */
+  max-width: 300px; /* Ajuste conforme o tamanho das imagens */
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  display: inline-block;
+  background-color: rgba(124, 130, 208, 0.184);
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
+.florzinha {
+    display: block;
+  text-align: center;
+}
+
+.buque-momo {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Garante que o elemento ocupe toda a largura */
+  max-width: 200px; /* Ajuste conforme o tamanho das imagens */
+  margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.pontinhos {
+  width: 50%; /* Ou qualquer largura fixa que você desejar */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  text-align: center; /* Opcional: centraliza o conteúdo interno se necessário */
+}
+
+.pontinhos ul {
+  list-style: none; /* Remove os marcadores padrão da lista */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.tchau {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gatinhos-fofos {
+    display: flex;
+  justify-content: center;
+  width: 100%; /* Garante que o elemento ocupe toda a largura */
+  max-width: 200px; /* Ajuste conforme o tamanho das imagens */
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.clique-aqui {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Garante que o elemento ocupe toda a largura */
+  max-width: 40px; /* Ajuste conforme o tamanho das imagens */
+  margin: 0 auto;
+}
